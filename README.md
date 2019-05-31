@@ -1,7 +1,7 @@
-#Rotaract Club of Birmingham
+# Rotaract Club of Birmingham
 Developing young leaders to be actively engaged in building a better community, region and world.
 
-####Plugins
+#### Plugins
 - Admin Menu Editor
 - Advanced Custom Fields
 - Avatar Manager
