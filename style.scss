@@ -158,11 +158,14 @@ Tags: birmingham
   --f-letter-spacing: -0.012em;
 
   /* Borders */
-  --border-width:   1px;
-  --border-stroke:  solid;
-  --border-opacity: 0.12;
-  --border-color:   hsla(var(--c-black-hsl), var(--border-opacity));
-  --border:         var(--border-width) var(--border-stroke) var(--border-color);
+  --border-width:        1px;
+  --border-stroke:       solid;
+  --border-opacity:      0.12;
+  --border-opacity-dark: 0.18;
+  --border-color:        hsla(var(--c-black-hsl), var(--border-opacity));
+  --border-color-dark:   hsla(var(--c-black-hsl), var(--border-opacity-dark));
+  --border:              var(--border-width) var(--border-stroke) var(--border-color);
+  --border-dark:         var(--border-width) var(--border-stroke) var(--border-color-dark);
 
   --border-radius:  6px;
 
@@ -468,8 +471,9 @@ input[type="submit"] {
   align-items: center;
   padding: 0.9rem 1.8rem;
   background-color: var(--c-red);
-  box-shadow: inset 0 0 0 1px var(--border-color),
-              0 2px 4px -2px var(--border-color);
+  box-shadow: inset 0 0 0 1px var(--border-color-dark),
+              inset 0 -2px 0 var(--border-color-dark),
+              0 2px 4px -2px var(--border-color-dark);
   border-radius: var(--border-radius);
   font-size: var(--f-base-rem);
   color: var(--c-white);
@@ -494,6 +498,9 @@ input[type="submit"] {
 
   &.button--secondary {
     background-color: var(--c-accent);
+    box-shadow: inset 0 0 0 1px var(--border-color),
+                inset 0 -2px 0 var(--border-color),
+                0 2px 4px -2px var(--border-color);
     color: var(--c-text);
 
     &:hover { background-color: var(--c-lightestgray); }
@@ -682,7 +689,7 @@ input[type="submit"] {
     align-items: center;
     padding: 7.2rem;
     position: relative;
-    min-height: calc(84vh - 72px);
+    min-height: calc(84vh - 7.2rem);
 
     .hero-figures {
       .hero-figures-background {
@@ -760,7 +767,7 @@ input[type="submit"] {
     grid-template-columns: 0.4fr 0.6fr;
     grid-gap: 10vw;
     align-items: start;
-    padding: 7.2rem;
+    padding: 10.8rem 7.2rem;
 
     .sponsors-content {}
 
