@@ -18,7 +18,7 @@
 -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,700i|Source+Serif+Pro:600,700">
-    <script defer src="https://pro.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-GBwm0s/0wYcqnK/JmrCoRqWYIWzFiGEucsfFqkB76Ouii5+d4R31vWHPQtfhv55b" crossorigin="anonymous"></script>
+    <script async src="https://kit.fontawesome.com/88b6fb78f5.js"></script>
     <meta property="og:site_name" content="<?php bloginfo('name'); ?>">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="<?php bloginfo('language'); ?>">
@@ -154,7 +154,7 @@
                     <?php if ($events_query->have_posts()) : while ($events_query->have_posts()) : $events_query->the_post(); ?>
                     <li class="event">
                       <div class="event-header">
-                        <span class="event-type" data-event-type="learn">Learn</span>
+                        <span class="event-type label" data-label-type="learn">Learn</span>
                         <time class="event-date" datetime="">
                           <div class="event-date-day">6</div>
                           <div class="event-date-month">June</div>

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <main class="main" role="main">
-      <div class="main-header centered">
+      <div class="main-header">
         <h1 class="main-header-heading">Event Schedule</h1>
         <p class="main-header-copy">The Rotaract Club of Birmingham meets on the first and third Thursdays each month at the Harbert Center in downtown Birmingham to hear from community and business leaders.</p>
       </div>
@@ -16,7 +16,7 @@
           <?php if ($events_query->have_posts()) : while ($events_query->have_posts()) : $events_query->the_post(); ?>
           <li class="event">
             <div class="event-header">
-              <span class="event-type" data-event-type="learn">Learn</span>
+              <span class="event-type label" data-label-type="learn">Learn</span>
               <time class="event-date" datetime="">
                 <div class="event-date-day">6</div>
                 <div class="event-date-month">June</div>

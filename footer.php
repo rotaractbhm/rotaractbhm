@@ -44,12 +44,14 @@
             <p><strong>&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?></strong></p>
             <p><?php bloginfo('description'); ?></p>
             <ul class="social-channels">
-              <li class="social-channel"><a href="https://www.facebook.com/rotaractbhm"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-channel"><a href="https://www.linkedin.com/company/rotaractbhm"><i class="fab fa-linkedin"></i></a></li>
-              <li class="social-channel"><a href="https://www.instagram.com/rotaractbhm"><i class="fab fa-instagram"></i></a></li>
-              <li class="social-channel"><a href="https://www.twitter.com/rotaractbhm"><i class="fab fa-twitter"></i></a></li>
-              <li class="social-channel"><a href="https://www.soundcloud.com/rotaractbhm"><i class="fab fa-soundcloud"></i></a></li>
-              <li class="social-channel"><a href="https://www.youtube.com/rotaractbhm"><i class="fab fa-youtube"></i></a></li>
+              <li class="social-channel"><a href="https://www.facebook.com/rotaractbhm" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+              <li class="social-channel"><a href="https://www.instagram.com/rotaractbhm" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+              <li class="social-channel"><a href="https://twitter.com/rotaractbhm" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+              <li class="social-channel"><a href="https://www.linkedin.com/company/rotaractbhm" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+              <li class="social-channel"><a href="https://vimeo.com/rotaractbhm" target="_blank" rel="noopener"><i class="fab fa-vimeo"></i></a></li>
+              <li class="social-channel"><a href="https://soundcloud.com/rotaractbhm" target="_blank" rel="noopener"><i class="fab fa-soundcloud"></i></a></li>
+              <li class="social-channel"><a href="https://rotaractbhm.slack.com/" target="_blank" rel="noopener"><i class="fab fa-slack"></i></a></li>
+              <li class="social-channel"><a href="https://github.com/rotaractbhm" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
             </ul>
             <?php wp_nav_menu(['theme_location' => 'legal_menu', 'container' => false, 'menu_class' => 'legal-menu']); ?>
           </div>
