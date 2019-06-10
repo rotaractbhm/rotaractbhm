@@ -2,7 +2,7 @@
     <footer class="footer">
       <div class="sponsors">
         <div class="sponsors-content">
-          <h4>Investing in the next generation<br>of Birmingham leaders.</h4>
+          <h4>Investing in the next generation of Birmingham leaders.</h4>
           <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
           <a class="button" href="<?php echo get_permalink(''); ?>">See the benefits of Sponsorship</a>
         </div>

@@ -3,7 +3,7 @@
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
       <div class="main-header">
         <h1 class="main-header-heading"><?php the_title(); ?></h1>
-        <p class="main-header-copy"><?php the_content(); ?></p>
+        <div class="main-header-copy"><?php the_content(); ?></div>
       </div>
       <div class="main-body">
         <ul>

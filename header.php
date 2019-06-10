@@ -179,16 +179,17 @@
           </li>
         </ul>
         <ul class="menu menu--member">
+          <li class="menu-item"><a href="<?php echo get_permalink(); ?>"><i class="far fa-search"></i></a></li>
           <?php if (is_user_logged_in()) { ?>
             <?php if (current_user_can('manage_options')) { ?>
               <li class="menu-item"><a href="<?php echo admin_url(); ?>">Dashboard</a></li>
             <?php } ?>
             <?php // echo wp_nav_menu(['theme_location' => 'member_private_menu', 'container' => false, 'menu_class' => 'member-menu']); ?>
-            <li class="menu-item"><a href="<?php echo get_permalink(8); ?>">My Account&nbsp;&nbsp;<i class="far fa-angle-down"></i></a></li>
+            <li class="menu-item"><a href="<?php echo get_permalink('8'); ?>">My Account&nbsp;&nbsp;<i class="far fa-angle-down"></i></a></li>
             <!-- <li class="menu-item"><a href="<?php echo wp_logout_url(home_url()); ?>">Logout</a></li> -->
           <?php } else { ?>
             <?php // echo wp_nav_menu(['theme_location' => 'member_public_menu', 'container' => false, 'menu_class' => 'main-menu']); ?>
-            <li class="menu-item"><a href="<?php echo get_permalink(9); ?>">Member Login</a></li>
+            <li class="menu-item"><a href="<?php echo get_permalink('9'); ?>">Member Login</a></li>
           <?php } ?>
         </ul>
       </nav>

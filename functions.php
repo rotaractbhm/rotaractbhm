@@ -5,6 +5,7 @@
 
   // post types
   require_once("includes/post-types/events.php");
+  require_once("includes/post-types/recapitulations.php");
   require_once("includes/post-types/sponsors.php");
 
   // taxonomies
