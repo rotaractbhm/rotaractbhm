@@ -15,13 +15,12 @@
         </div>
         <div class="hero-figures">
           <div class="hero-figures-carousel">
-            <!-- <img src="<?php bloginfo('template_url'); ?>/assets/images/figures.png"> -->
-            <img src="<?php bloginfo('template_url'); ?>/assets/images/melissa.png">
+            <img src="<?php bloginfo('template_url'); ?>/assets/images/michael.png">
           </div>
-          <div class="hero-figures-background">
-            <div class="hero-figures-background--rotary"></div>
-            <div class="hero-figures-background--rotaract"></div>
-          </div>
+        </div>
+        <div class="hero-background">
+          <div class="hero-background--rotary"></div>
+          <div class="hero-background--rotaract"></div>
         </div>
       </div>
       <div class="member-testimonials"></div>

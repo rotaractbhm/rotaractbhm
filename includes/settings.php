@@ -7,6 +7,9 @@
   remove_filter ("the_content", "wpautop");
   remove_filter ("the_excerpt", "wpautop");
 
+  // enable page excerpts
+  add_post_type_support("page", "excerpt");
+
   // user profile management
   add_filter("user_contactmethods", function($profile_fields) {
   	unset($profile_fields["twitter"]);

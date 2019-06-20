@@ -1,130 +1,134 @@
 <?php get_header(); ?>
     <main class="main" role="main">
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-      <div class="main-header">
-        <h2 class="main-header-heading"><?php the_title(); ?></h2>
-        <div class="main-header-copy"><?php the_content(); ?></div>
+      <div class="main-section">
+        <div class="main-section-header main-section-header--centered">
+          <h1 class="main-section-heading"><?php the_title(); ?></h1>
+          <div class="main-section-copy"><?php the_content(); ?></div>
+        </div>
       </div>
-      <div class="main-body">
-        <dl class="directors">
-          <div class="director">
-            <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/henry-joe.jpg" alt="Henry Joe">
-            <dt class="director-name"><h6>Henry Joe</h6></dt>
-            <dd class="director-title">President</dd>
-            <ul class="director-social social-channels">
-              <li class="social-channel"><a href="mailto:president@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
-              <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-          <div class="director">
-            <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/brass-bralley.jpg" alt="Brass Bralley">
-            <dt class="director-name"><h6>Brass Bralley</h6></dt>
-            <dd class="director-title">President-Elect</dd>
-            <ul class="director-social social-channels">
-              <li class="social-channel"><a href="mailto:elect@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
-              <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-          <div class="director">
-            <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/allison-swagler-webb.jpg" alt="Allison Swagler-Webb">
-            <dt class="director-name"><h6>Allison Swagler-Webb</h6></dt>
-            <dd class="director-title">Executive Vice President</dd>
-            <ul class="director-social social-channels">
-              <li class="social-channel"><a href="mailto:vicepresident@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
-              <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-          <div class="director">
-            <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/james-kemp.jpg" alt="James Kemp">
-            <dt class="director-name"><h6>James Kemp</h6></dt>
-            <dd class="director-title">VP Finance</dd>
-            <ul class="director-social social-channels">
-              <li class="social-channel"><a href="mailto:treasurer@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
-              <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-          <div class="director">
-            <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/knox-richardson.jpg" alt="Knox Richardson">
-            <dt class="director-name"><h6>Knox Richardson</h6></dt>
-            <dd class="director-title">VP Communications</dd>
-            <ul class="director-social social-channels">
-              <li class="social-channel"><a href="mailto:communications@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
-              <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-          <div class="director">
-            <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/brandon-williams.jpg" alt="Brandon Williams">
-            <dt class="director-name"><h6>Brandon Williams</h6></dt>
-            <dd class="director-title">VP Signature Service</dd>
-            <ul class="director-social social-channels">
-              <li class="social-channel"><a href="mailto:signature@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
-              <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-          <div class="director">
-            <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/ying-lin.jpg" alt="Ying Lin">
-            <dt class="director-name"><h6>Ying Lin</h6></dt>
-            <dd class="director-title">VP Programs</dd>
-            <ul class="director-social social-channels">
-              <li class="social-channel"><a href="mailto:programs@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
-              <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-          <div class="director">
-            <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/clay-mcdowell.jpg" alt="Clay McDowell">
-            <dt class="director-name"><h6>Clay McDowell</h6></dt>
-            <dd class="director-title">VP Social</dd>
-            <ul class="director-social social-channels">
-              <li class="social-channel"><a href="mailto:social@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
-              <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-          <div class="director">
-            <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/caitlin-mullin.jpg" alt="Caitlin Mullin">
-            <dt class="director-name"><h6>Caitlin Mullin</h6></dt>
-            <dd class="director-title">VP Service</dd>
-            <ul class="director-social social-channels">
-              <li class="social-channel"><a href="mailto:service@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
-              <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-          <div class="director">
-            <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/caitlyn-burchfield.jpg" alt="Caitlyn Burchfield">
-            <dt class="director-name"><h6>Caitlyn Burchfield</h6></dt>
-            <dd class="director-title">VP Development</dd>
-            <ul class="director-social social-channels">
-              <li class="social-channel"><a href="mailto:development@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
-              <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-          <div class="director">
-            <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/giuli-williams.jpg" alt="Giuli Williams">
-            <dt class="director-name"><h6>Giuli Williams</h6></dt>
-            <dd class="director-title">VP Recruitment</dd>
-            <ul class="director-social social-channels">
-              <li class="social-channel"><a href="mailto:recruitment@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
-              <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-        </dl>
-        <h3>Past Boards</h3>
-        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+      <dl class="main-section directors">
+        <div class="director">
+          <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/henry-joe.jpg" alt="Henry Joe">
+          <dt class="director-name"><h6>Henry Joe</h6></dt>
+          <dd class="director-title">President</dd>
+          <ul class="director-social social-channels">
+            <li class="social-channel"><a href="mailto:president@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
+            <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="director">
+          <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/brass-bralley.jpg" alt="Brass Bralley">
+          <dt class="director-name"><h6>Brass Bralley</h6></dt>
+          <dd class="director-title">President-Elect</dd>
+          <ul class="director-social social-channels">
+            <li class="social-channel"><a href="mailto:elect@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
+            <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="director">
+          <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/allison-swagler-webb.jpg" alt="Allison Swagler-Webb">
+          <dt class="director-name"><h6>Allison Swagler-Webb</h6></dt>
+          <dd class="director-title">Executive Vice President</dd>
+          <ul class="director-social social-channels">
+            <li class="social-channel"><a href="mailto:vicepresident@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
+            <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="director">
+          <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/james-kemp.jpg" alt="James Kemp">
+          <dt class="director-name"><h6>James Kemp</h6></dt>
+          <dd class="director-title">VP Finance</dd>
+          <ul class="director-social social-channels">
+            <li class="social-channel"><a href="mailto:treasurer@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
+            <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="director">
+          <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/knox-richardson.jpg" alt="Knox Richardson">
+          <dt class="director-name"><h6>Knox Richardson</h6></dt>
+          <dd class="director-title">VP Communications</dd>
+          <ul class="director-social social-channels">
+            <li class="social-channel"><a href="mailto:communications@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
+            <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="director">
+          <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/brandon-williams.jpg" alt="Brandon Williams">
+          <dt class="director-name"><h6>Brandon Williams</h6></dt>
+          <dd class="director-title">VP Signature Service</dd>
+          <ul class="director-social social-channels">
+            <li class="social-channel"><a href="mailto:signature@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
+            <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="director">
+          <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/ying-lin.jpg" alt="Ying Lin">
+          <dt class="director-name"><h6>Ying Lin</h6></dt>
+          <dd class="director-title">VP Programs</dd>
+          <ul class="director-social social-channels">
+            <li class="social-channel"><a href="mailto:programs@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
+            <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="director">
+          <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/clay-mcdowell.jpg" alt="Clay McDowell">
+          <dt class="director-name"><h6>Clay McDowell</h6></dt>
+          <dd class="director-title">VP Social</dd>
+          <ul class="director-social social-channels">
+            <li class="social-channel"><a href="mailto:social@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
+            <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="director">
+          <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/caitlin-mullin.jpg" alt="Caitlin Mullin">
+          <dt class="director-name"><h6>Caitlin Mullin</h6></dt>
+          <dd class="director-title">VP Service</dd>
+          <ul class="director-social social-channels">
+            <li class="social-channel"><a href="mailto:service@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
+            <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="director">
+          <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/caitlyn-burchfield.jpg" alt="Caitlyn Burchfield">
+          <dt class="director-name"><h6>Caitlyn Burchfield</h6></dt>
+          <dd class="director-title">VP Development</dd>
+          <ul class="director-social social-channels">
+            <li class="social-channel"><a href="mailto:development@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
+            <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="director">
+          <img class="director-photo" src="<?php bloginfo('template_url'); ?>/assets/images/board/giuli-williams.jpg" alt="Giuli Williams">
+          <dt class="director-name"><h6>Giuli Williams</h6></dt>
+          <dd class="director-title">VP Recruitment</dd>
+          <ul class="director-social social-channels">
+            <li class="social-channel"><a href="mailto:recruitment@rotaractbhm.org"><i class="far fa-envelope"></i></a></li>
+            <li class="social-channel"><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-channel"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </dl>
+      <div class="main-section">
+        <div class="main-section-header main-section-header--centered">
+          <h2 class="main-section-heading">Past Boards</h2>
+          <!-- <p class="main-section-copy">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p> -->
+        </div>
         <div class="boards">
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2018-2019</h6>
-              <!-- <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a> -->
+              <a class="board-links" href="<?php echo get_permalink('219'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -176,7 +180,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2017-2018</h6>
-              <!-- <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a> -->
+              <a class="board-links" href="<?php echo get_permalink('218'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -228,7 +232,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2016-2017</h6>
-              <a class="board-links" href="<?php echo get_permalink('197'); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink('197'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -276,7 +280,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2015-2016</h6>
-              <a class="board-links" href="<?php echo get_permalink('196'); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink('196'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -324,7 +328,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2014-2015</h6>
-              <a class="board-links" href="<?php echo get_permalink('195'); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink('195'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -372,7 +376,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2013-2014</h6>
-              <a class="board-links" href="<?php echo get_permalink('194'); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink('194'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -420,7 +424,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2012-2013</h6>
-              <a class="board-links" href="<?php echo get_permalink('193'); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink('193'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -468,7 +472,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2011-2012</h6>
-              <a class="board-links" href="<?php echo get_permalink('192'); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink('192'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -516,7 +520,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2010-2011</h6>
-              <a class="board-links" href="<?php echo get_permalink('191'); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink('191'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -564,7 +568,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2009-2010</h6>
-              <a class="board-links" href="<?php echo get_permalink('190'); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink('190'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -612,7 +616,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2008-2009</h6>
-              <a class="board-links" href="<?php echo get_permalink('189'); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink('189'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -660,7 +664,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2007-2008</h6>
-              <a class="board-links" href="<?php echo get_permalink('188'); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink('188'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -708,7 +712,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2006-2007</h6>
-              <a class="board-links" href="<?php echo get_permalink('187'); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink('187'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -756,7 +760,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2005-2006</h6>
-              <a class="board-links" href="<?php echo get_permalink('186'); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink('186'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -816,7 +820,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2004-2005</h6>
-              <a class="board-links" href="<?php echo get_permalink('185'); ?>">Year In Review&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink('185'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -854,8 +858,6 @@
             </dl>
           </div>
         </div>
-      </div>
-      <div class="main-footer">
       </div>
       <?php endwhile; endif; ?>
     </main>

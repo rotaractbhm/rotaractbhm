@@ -2,11 +2,11 @@
 <?php get_header(); ?>
     <main class="main" role="main">
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-      <div class="main-header">
-        <h1 class="main-header-heading"><?php the_title(); ?></h1>
-        <div class="main-header-copy"><?php the_content(); ?></div>
+      <div class="main-section">
+        <h1 class="main-section-heading"><?php the_title(); ?></h1>
+        <div class="main-section-copy"><?php the_content(); ?></div>
       </div>
-      <div class="main-body">
+      <div class="main-section">
         <form class="form">
           <div class="form-section">
             <div class="form-fieldset">
@@ -89,7 +89,7 @@
           </script>
         </form>
       </div>
-      <div class="main-footer">
+      <div class="main-section">
         <p class="disclaimer">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
       </div>
       <?php endwhile; endif; ?>

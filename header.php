@@ -24,13 +24,13 @@
     <meta property="og:locale" content="<?php bloginfo('language'); ?>">
     <meta property="og:title" content="<?php the_title(); ?>">
     <meta property="og:description" content="">
-    <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/images/rotaract-logo.svg">
+    <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/images/brand/rotaract-logo.svg">
     <meta property="og:url" content="<?php bloginfo('url'); ?>">
     <?php // wp_head(); ?>
   </head>
   <body>
     <header class="header">
-      <a class="logo" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/images/rotaract-logo.svg" alt="<?php bloginfo('name'); ?>" width="auto" height="48"></a>
+      <a class="logo" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/images/brand/rotaract-logo.svg" alt="<?php bloginfo('name'); ?>" width="auto" height="48"></a>
       <nav class="navigation">
         <ul class="menu menu--visitor">
           <li class="menu-item">
