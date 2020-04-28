@@ -1,15 +1,15 @@
 <?php
-  
+
   // https://codex.wordpress.org/Function_Reference/register_taxonomy
-  
+
   // register the taxonomy
-  function event_categories_taxonomy() {
+  function event_labels_taxonomy() {
     $name = [
-      "singular" => "Event Category",
-      "plural"   => "Event Categories",
-      "slug"     => "event-categories"
+      "singular" => "Event Label",
+      "plural"   => "Event Labels",
+      "slug"     => "event-labels"
     ];
-    
+
   	$labels = [
   		"name"                       => $name["plural"],
   		"singular_name"              => $name["singular"],
@@ -30,7 +30,7 @@
   		"not_found"                  => "No ".$name["plural"]." found",
   		"back_to_items"              => "Back to ".$name["plural"]
   	];
-  
+
   	$args = [
   		"labels"                => $labels,
   		"public"                => true,
@@ -53,10 +53,10 @@
 //   		"capabilities"          => [],
 //   		"sort"                  => false
   	];
-  
+
   	register_taxonomy($name["slug"], ["events"], $args);
   }
-  
-  add_action("init", "event_categories_taxonomy");
-  
+
+  add_action("init", "event_labels_taxonomy");
+
 ?>

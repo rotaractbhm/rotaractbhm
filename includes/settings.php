@@ -10,6 +10,9 @@
   // enable page excerpts
   add_post_type_support("page", "excerpt");
 
+  // enable post thumbnails
+  add_theme_support("post-thumbnails");
+
   // user profile management
   add_filter("user_contactmethods", function($profile_fields) {
   	unset($profile_fields["twitter"]);
@@ -55,6 +58,12 @@
       return new WP_Error("Unauthorized", "You are not currently logged in.", ["status" => 401]);
     }
     return $result;
+  });
+
+  // add api key for acf map feature
+  add_filter("acf/fields/google_map/api", function($api) {
+    $api["key"] = "AIzaSyB-_UI4e_5GR6wrQWwLHwoyzn38hYGvPHE";
+    return $api;
   });
 
 ?>

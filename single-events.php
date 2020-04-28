@@ -8,20 +8,23 @@
       <div class="event-single">
         <div class="event-body">
           <div class="event-labels labels">
-            <span class="event-type label" data-label-type="learn">Learn</span>
-            <span class="event-type label" data-label-type="socialize">Socialize</span>
-            <span class="event-type label" data-label-type="serve">Serve</span>
-            <span class="event-type label" data-label-type="members-only">Members Only</span>
+            <?php $labels = get_the_terms(get_the_ID(), 'event-labels'); ?>
+            <?php if (!empty($labels)) { ?>
+              <?php foreach($labels as $label) { ?>
+              <?php // echo get_term_link($label); ?>
+                <span class="event-type label" data-label-type="<?php echo $label->slug; ?>"><?php echo $label->name; ?></span>
+              <?php } ?>
+            <?php } ?>
           </div>
-          <h3 class="event-name"><?php the_title(); ?></h3>
+          <h2 class="event-name"><?php the_title(); ?></h2>
           <dl class="event-metadata">
             <div class="event-metadatum">
               <dt><i class="far fa-map-pin"></i></dt>
               <dd>
                 <address class="event-location">
-                  <div class="event-venue">Hamburg Messe</div>
-                  <div class="event-address">Messeplatz 1<br>20357 Hamburg, DE</div>
-                  <div class="event-directions"><a href="https://maps.google.com/">Get Directions</a></div>
+                  <div class="event-venue"><?php the_field('event-venue'); ?></div>
+                  <div class="event-address"><?php the_field('event-address-line-a'); ?><br><?php the_field('event-address-line-b'); ?></div>
+                  <!-- <div class="event-directions"><a href="https://maps.google.com/">Get Directions</a></div> -->
                 </address>
               </dd>
             </div>
@@ -29,20 +32,26 @@
               <dt><i class="far fa-calendar-day"></i></dt>
               <dd>
                 <time class="event-date">
-                  <div class="event-date-day" datetime="">6 June 2019</div>
-                  <div class="event-date-time" datetime="">5:30PM&nbsp;-&nbsp;7:00PM</div>
-                  <div class="event-calendar"><a href="">Add to Calendar</a></div>
+                  <div class="event-date-day" datetime=""><?php echo date('j F Y', strtotime(get_field('event-start-datetime'))); ?></div>
+                  <div class="event-date-time" datetime=""><?php echo date('g:iA', strtotime(get_field('event-start-datetime'))); ?>&nbsp;&ndash;&nbsp;<?php echo date('g:iA', strtotime(get_field('event-end-datetime'))); ?></div>
+                  <!-- <div class="event-calendar"><a href="">Add to Calendar</a></div> -->
                 </time>
               </dd>
             </div>
           </dl>
           <div class="event-copy"><?php the_content(); ?></div>
           <div class="buttons">
-            <a class="button button--large" href="">Register</a>
+            <?php if (get_field('event-registration-url')) { ?>
+              <a class="button button--large" href="<?php the_field('event-registration-url') ?>">Register</a>
+            <?php } ?>
           </div>
         </div>
         <div class="event-sidebar">
-          <img class="event-image" src="<?php bloginfo('template_url'); ?>/assets/images/ri.jpg" alt="<?php the_title(); ?>">
+          <?php the_post_thumbnail('thumbnail', [
+            'alt'   => get_the_title(),
+            'class' => 'event-image',
+            'title' => get_the_title()
+          ]); ?>
         </div>
       </div>
       <?php endwhile; endif; ?>

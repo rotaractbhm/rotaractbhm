@@ -7,7 +7,7 @@
 	  "main_menu"        => "Main Menu",
 	  "about_menu"       => "About Menu",
 	  "involvement_menu" => "Involvement Menu",
-	  "purpose_menu"     => "Purpose Menu",
+	  "mission_menu"     => "Mission Menu",
 	  "programs_menu"    => "Programs Menu",
 	  "events_menu"      => "Events Menu",
 

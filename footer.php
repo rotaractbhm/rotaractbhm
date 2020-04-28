@@ -1,9 +1,9 @@
     <?php if (!is_page('login')) { ?>
     <footer class="footer">
-      <div class="sponsors">
+      <!-- <div class="sponsors">
         <div class="sponsors-content">
-          <h4>Investing in the next generation of Birmingham leaders.</h4>
-          <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+          <h3>Investing in the next generation of Birmingham leaders.</h3>
+          <p>The Rotaract Club of Birmingham Foundation would like to thank all of our 2018-2019 sponsors for their continued support of our philanthropic endeavors.</p>
           <a class="button" href="<?php echo get_post_type_archive_link('sponsors'); ?>">See the benefits of Sponsorship</a>
         </div>
         <ul class="sponsors-list">
@@ -20,7 +20,7 @@
           <li class="sponsor"><a href="https://www.rotarybhm.org/?utm_source=rotaractbhm&utm_medium=sponsors&utm_campaign=referrals" target="_blank" rel="noopener"><img src="<?php bloginfo('template_url'); ?>/assets/images/sponsors/rotary.svg" alt="Rotary Club of Birmingham" width="auto" height="42"></a></li>
           <li class="sponsor"><a href="https://www.rotarybhm.org/?utm_source=rotaractbhm&utm_medium=sponsors&utm_campaign=referrals" target="_blank" rel="noopener"><img src="<?php bloginfo('template_url'); ?>/assets/images/sponsors/rotary.svg" alt="Rotary Club of Birmingham" width="auto" height="42"></a></li>
         </ul>
-      </div>
+      </div> -->
       <div class="sitemap">
         <nav class="sitemap-menus">
           <?php wp_nav_menu(['theme_location' => 'learn_menu', 'container' => false, 'menu_class' => 'sitemap-menu sitemap-menu-learn']); ?>
@@ -32,7 +32,7 @@
         <div class="newsletter">
           <h6>Monthly Bulletin</h6>
           <p>Each month we send out our club bulletin updating you on the latest programming information, upcoming events &amp; member activity. Get involved &ndash; subscribe now.</p>
-          <form class="newsletter-form" method="post" action="https://rotaractbhm.us1.list-manage.com/subscribe/post?u=1ed4e0355083b8f6bcb10d81a&id=1cd97b5bd8" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+          <form class="newsletter-form" method="post" action="https://rotaractbhm.us1.list-manage.com/subscribe/post?u=1ed4e0355083b8f6bcb10d81a&id=2eb4b48fff" name="mc-embedded-subscribe-form" target="_blank" novalidate>
             <input class="newsletter-email" type="email" name="EMAIL" placeholder="Email address">
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1ed4e0355083b8f6bcb10d81a_1cd97b5bd8" tabindex="-1" value=""></div>
             <input class="newsletter-submit button" type="submit" value="Subscribe" name="subscribe">
@@ -59,6 +59,7 @@
       </div>
     </footer>
     <?php } ?>
+    <script async src="<?php bloginfo('template_url'); ?>/application-min.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129516193-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];

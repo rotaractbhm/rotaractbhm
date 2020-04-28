@@ -128,7 +128,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2018-2019</h6>
-              <a class="board-links" href="<?php echo get_permalink('219'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -180,7 +180,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2017-2018</h6>
-              <a class="board-links" href="<?php echo get_permalink('218'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -232,7 +232,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2016-2017</h6>
-              <a class="board-links" href="<?php echo get_permalink('197'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -280,7 +280,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2015-2016</h6>
-              <a class="board-links" href="<?php echo get_permalink('196'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -328,7 +328,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2014-2015</h6>
-              <a class="board-links" href="<?php echo get_permalink('195'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -376,7 +376,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2013-2014</h6>
-              <a class="board-links" href="<?php echo get_permalink('194'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -424,7 +424,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2012-2013</h6>
-              <a class="board-links" href="<?php echo get_permalink('193'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -472,7 +472,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2011-2012</h6>
-              <a class="board-links" href="<?php echo get_permalink('192'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -520,7 +520,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2010-2011</h6>
-              <a class="board-links" href="<?php echo get_permalink('191'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -568,7 +568,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2009-2010</h6>
-              <a class="board-links" href="<?php echo get_permalink('190'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -616,7 +616,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2008-2009</h6>
-              <a class="board-links" href="<?php echo get_permalink('189'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -664,7 +664,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2007-2008</h6>
-              <a class="board-links" href="<?php echo get_permalink('188'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -712,7 +712,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2006-2007</h6>
-              <a class="board-links" href="<?php echo get_permalink('187'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -760,7 +760,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2005-2006</h6>
-              <a class="board-links" href="<?php echo get_permalink('186'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">
@@ -820,7 +820,7 @@
           <div class="board">
             <div class="board-header">
               <h6 class="board-term">2004-2005</h6>
-              <a class="board-links" href="<?php echo get_permalink('185'); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
+              <a class="board-links" href="<?php echo get_permalink(''); ?>">Year In Review&nbsp;&nbsp;<i class="far fa-long-arrow-right"></i></a>
             </div>
             <dl class="board-directors">
               <div class="board-director">

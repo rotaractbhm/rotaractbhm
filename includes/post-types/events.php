@@ -28,7 +28,7 @@
 //   		"attributes"            => $name["plural"],
 //   		"insert_into_item"      => $name["plural"],
 //   		"uploaded_to_this_item" => $name["plural"],
-//   		"featured_image"        => $name["plural"],
+  		"featured_image"        => $name["plural"],
 //   		"set_featured_image"    => $name["plural"],
 //   		"remove_featured_image" => $name["plural"],
 //   		"use_featured_image"    => $name["plural"],
@@ -36,7 +36,7 @@
 //   		"filter_items_list"     => $name["plural"],
 //   		"items_list_navigation" => $name["plural"],
 //   		"items_list"            => $name["plural"],
-//   		"name_admin_bar"        => $name["plural"],
+//   		"name_admin_bar"        => $name["plural"]
   	];
 
   	$args = [
@@ -55,7 +55,7 @@
 //   		"capabilities"          => [],
 //   		"map_meta_cap"          => null,
 //   		"hierarchical"          => false,
-  		"supports"              => ["title", "editor", "excerpt"],
+  		"supports"              => ["title", "editor", "excerpt", "thumbnail"],
 //   		"register_meta_box_cb"  => ["title"],
 //   		"taxonomies"            => [],
   		"has_archive"           => true,

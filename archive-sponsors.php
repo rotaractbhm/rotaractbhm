@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <main class="main" role="main">
       <div class="main-section">
-        <div class="main-section-header main-section-header--centered">
+        <div class="main-section-header main-section--centered">
           <h1 class="main-section-heading">Club Sponsors</h1>
           <div class="main-section-copy">
             <p>Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>

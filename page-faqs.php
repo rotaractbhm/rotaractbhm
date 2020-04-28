@@ -18,7 +18,7 @@
           <details class="faq">
             <summary class="question">How often does the Rotaract Club of Birmingham meet?</summary>
             <div class="answer">
-              <p>Lunch meetings are held the first and third Thursday of each month from 11:45AM to 1:00PM featuring a speaker who is a leader business, government, community or other notable endeavors.</p>
+              <p>Lunch meetings are held the first and third Thursday of each month from 11:45AM to 1:00PM featuring a speaker who is a leader in business, government, community or other notable endeavors.</p>
             </div>
           </details>
           <details class="faq">
@@ -30,13 +30,13 @@
           <details class="faq">
             <summary class="question">What is the age requirement of the Club?</summary>
             <div class="answer">
-              <p>Prospective members must be between the ages of 21 to 30 at the time their application is submitted to be considered for membership. Members can stay active until the Rotary year in which they turn 35. The Club allows members to remain active over the age of 30 for two main reasons. First, many of our members do not want to leave the Club after they turn 30 due to the strong relationships they have developed with other Club members. Secondivy, many of the Rotary Clubs in Birmingham typically do not offer membership to members as young as 30. We feel that allowing members to stay active until 35 provides an opportunity to mentor younger members of Rotaract and hopefully provide time to transition into a local Rotary Club.</p>
+              <p>Prospective members must be between the ages of 21 to 30 at the time their application is submitted to be considered for membership. Members can stay active until the Rotary year in which they turn 35. The Club allows members to remain active over the age of 30 for two main reasons. First, many of our members do not want to leave the Club after they turn 30 due to the strong relationships they have developed with other Club members. Secondly, many of the Rotary Clubs in Birmingham typically do not offer membership to members as young as 30. We feel that allowing members to stay active until 35 provides an opportunity to mentor younger members of Rotaract and hopefully provide time to transition into a local Rotary Club.</p>
             </div>
           </details>
           <details class="faq">
             <summary class="question">How many members does your Club have? What percentage is male? Female?</summary>
             <div class="answer">
-              <p>The Rotaract Club of Birmingham has [__] members, evenly distributed among male and female members.</p>
+              <p>The Rotaract Club of Birmingham has 300 members, evenly distributed among male and female members.</p>
             </div>
           </details>
           <details class="faq">
@@ -76,19 +76,19 @@
           <details class="faq">
             <summary class="question">Does your Club receive financial support from your sponsoring Rotary Club?</summary>
             <div class="answer">
-              <p>Yes, the Rotary Club of Birmingham generally provides some funds to cover costs associated with sending the incoming Rotaract President to the Rotaract Preconvention Meeting and Rotary International Convention. The Rotary Club also offers reduced cost to Rotaract members for joint fellowship events between the Clubs. The Rotary Club also provides comped lunches to all current Rotaract Board members and 15 at-large members every luncheon. To help start our Club, the Rotary Club provided the full cost of an information wine and cheese event for prospective founding members as well as the Club's inaugural luncheon meeting.</p>
+              <p>Yes, the Rotary Club of Birmingham generally provides some funds to cover costs associated with sending the incoming Rotaract President to the Rotaract Preconvention Meeting and Rotary International Convention. The Rotary Club also offers reduced cost to Rotaract members for joint fellowship events between the Clubs. The Rotary Club also provides comped lunches to all current Rotaract Board members and 10 at-large members every luncheon. To help start our Club, the Rotary Club provided the full cost of an information wine and cheese event for prospective founding members as well as the Club's inaugural luncheon meeting.</p>
             </div>
           </details>
           <details class="faq">
             <summary class="question">Describe the relationship between your Club and sponsoring Rotary Club?</summary>
             <div class="answer">
-              <p>The two Clubs have a strong working relationship while they each conduct business autonomously from one another. Each Club has its own officers and board of directors, as well as separate financing. The Rotaract Club does not see approval from the Rotary Club to conduct any of its business. The Rotary Club provides the Rotaract Club with a small area in its office to maintain Rotaract files. Both Clubs work together to host several joint events each year, including joint meetings and fellowship. The Clubs also have a Professional Partners mentoring program and work together to render service. Rotary Club members regularly send prospective members to Rotaract.</p>
+              <p>The two Clubs have a strong working relationship, while they each conduct business autonomously from one another. Each Club has its own officers and board of directors, as well as separate financing. The Rotaract Club does not seek approval from the Rotary Club to conduct any of its business. The Rotary Club provides the Rotaract Club with a small area in its office to maintain Rotaract files. Both Clubs work together to host several joint events each year, including joint meetings and fellowship. The Clubs also have a Professional Partners mentoring program and work together to render service. Rotary Club members regularly send prospective members to Rotaract.</p>
             </div>
           </details>
           <details class="faq">
             <summary class="question">What tools have you found effective in keeping members engaged?</summary>
             <div class="answer">
-              <p>At its core level, our Club provides two high quality lunch meetings per month with average attendance of over 100 people. In addition to hearing from our featured speaker, the Club uses lunch meetings to promote the Club's service and fellowship activities. The Club uses a structured committee system that allows every member to participate in an area of the Club. The Club conducts an annual survey to capture the input of our membership. Our Club mains a web presence at www.BirminghamRotaract.com. This website provides current news and information on Rotaract events. The website also has a "members only" directory event registration and a message board. The Club also publishes a monthly newsletter that is emailed to members. The Club heavily uses social media, including Facebook and Twitter to post event reminders, pictures and stories.</p>
+              <p>At its core level, our Club provides two high quality lunch meetings per month with average attendance of over 100 people. In addition to hearing from our featured speaker, the Club uses lunch meetings to promote the Club's service and social activities. The Club uses a structured committee system that allows every member to participate in an area of the Club. The Club conducts an annual survey to capture the input of our membership. Our Club maintains a web presence at www.rotaractbhm.org. This website provides current news and information on Rotaract events. The website also has a "members only" directory, event registration and a message board. The Club also publishes a monthly newsletter that is emailed to members. The Club heavily uses social media, including Facebook, Instagram and Twitter to post event reminders, pictures and stories as well as posting audio of each luncheon to our podcast.</p>
             </div>
           </details>
         </div>

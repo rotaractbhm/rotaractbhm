@@ -9,7 +9,7 @@
             <p>Web hosting provided in kind by <a href="https://www.dreamhost.com/r.cgi?2358599" target="_blank" rel="noopener">DreamHost</a>.</p>
             <!-- <p>Language for our Privacy Policy and Terms & Conditions provided in kind by <a href="https://www.balch.com/" target="_blank" rel="noopener">Balch & Bingham</a>.</p> -->
             <p>Code repository provided in kind by <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>.</p>
-            <p>Collaboration and productivity tools provided in kind by <a href="https://gsuite.google.com/" target="_blank" rel="noopener">Google G Suite</a>.</p>
+            <p>Collaboration and productivity tools provided in kind by <a href="https://www.google.com/" target="_blank" rel="noopener">Google</a>.</p>
           </div>
         </div>
       </div>
