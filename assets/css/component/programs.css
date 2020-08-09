@@ -1,0 +1,10 @@
+.programs,
+.values {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: calc(1.25vw + 18px) 5vw;
+  margin-top: calc(1.25vw + 18px);
+
+  .program,
+  .value {}
+}

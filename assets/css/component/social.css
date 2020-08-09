@@ -1,0 +1,10 @@
+.social {
+  display: inline-flex;
+  align-items: center;
+
+  .channel {
+    a { color: var(--color-gray-4); }
+
+    &:not(:last-child) { margin-right: 0.5em; }
+  }
+}

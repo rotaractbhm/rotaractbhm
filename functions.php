@@ -1,11 +1,6 @@
 <?php
-
-  // functions
-  // require_once("includes/functions/___.php");
-
   // post types
   require_once("includes/post-types/events.php");
-  // require_once("includes/post-types/recapitulations.php");
   require_once("includes/post-types/sponsors.php");
 
   // taxonomies
@@ -20,5 +15,4 @@
 
   // settings
   require_once("includes/settings.php");
-
 ?>

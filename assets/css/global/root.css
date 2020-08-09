@@ -1,0 +1,27 @@
+/*
+==========================================================================================
+  Root
+==========================================================================================
+*/
+
+html, body { min-height: 100vh; }
+
+html {
+  background: var(--color-background);
+  font-size: 10px;
+}
+
+body {
+  margin: 0 auto;
+  background-color: var(--color-background);
+  border-top: calc(var(--spacing) / 2) solid var(--color-rotaract-red);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-base);
+  color: var(--color-base);
+  line-height: var(--line-height-base);
+  letter-spacing: var(--letter-spacing-base);
+  position: relative;
+  min-width: var(--width-min);
+  max-width: var(--width-max);
+}

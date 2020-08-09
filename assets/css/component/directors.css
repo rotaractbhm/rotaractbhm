@@ -1,0 +1,23 @@
+.directors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: calc(1.25vw + 1.8rem) 2.5vw;
+
+  .director {
+    .director-photo {
+      margin-bottom: 0.6rem;
+      border-radius: var(--border-radius);
+    }
+
+    .director-name {}
+
+    .director-title {}
+
+    .director-social {
+      display: none;
+      margin-top: 0.3rem;
+      font-size: var(--font-size-large);
+      min-height: var(--font-size-large);
+    }
+  }
+}

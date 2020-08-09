@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "license": "MIT",
+  "name": "rotaractbhm",
+  "author": {
+    "name": "Drew Fravert",
+    "email": "drew@fravert.dev",
+    "url": "https://drewfravert.com/"
+  },
+  "homepage": "https://www.rotaractbhm.org/",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rotaractbhm/rotaractbhm.org.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rotaractbhm/rotaractbhm.org/issues",
+    "email": "admin@rotaractbhm.org"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.production.js --color",
+    "watch": "webpack --config webpack.development.js --watch --color"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^7.5.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.2.1",
+    "terser-webpack-plugin": "^3.0.8",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.2",
+    "webpack-merge": "^5.0.9"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}

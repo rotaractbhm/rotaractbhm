@@ -2,7 +2,7 @@
     <main class="main" role="main">
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
       <div class="main-section">
-        <h1 class="main-section-heading"><?php the_title(); ?></h1>
+        <h1 class="heading main-section-heading"><?php the_title(); ?></h1>
         <?php if (the_content()) { ?>
           <div class="main-section-copy"><?php the_content(); ?></div>
         <?php } ?>

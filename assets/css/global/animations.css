@@ -1,0 +1,17 @@
+/*
+==========================================================================================
+  Animations
+==========================================================================================
+*/
+
+.animates,
+.animates::before,
+.animates::after {
+  will-change: transform;
+  transform: scale(1), translate(0, 0);
+  transition-property: transform;
+  transition-duration: var(--animation-duration-base);
+  transition-timing-function: var(--animation-timing-function-base);
+  animation-duration: var(--animation-duration-base);
+  animation-timing-function: var(--animation-timing-function-base);
+}

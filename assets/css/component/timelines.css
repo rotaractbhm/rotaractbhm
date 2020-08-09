@@ -1,0 +1,39 @@
+.timeline {
+  position: relative;
+
+  &::before {
+    content: "";
+    background-color: var(--border-color);
+    position: absolute;
+    width: 0.1rem;
+    top: 0;
+    left: calc(50% - 0.05rem);
+    bottom: 0;
+  }
+
+  .timeline-event {
+    padding: 0 1.8rem 1.8rem;
+    border-bottom: var(--border);
+    max-width: 50%;
+
+    &:nth-child(odd) {
+      text-align: right;
+
+      .timeline-event-description {
+        p { margin-left: auto; }
+      }
+    }
+
+    &:nth-child(even) {
+      margin-left: auto;
+    }
+
+    &:last-child { border-bottom: none; }
+
+    .timeline-event-date { font-weight: 700; }
+
+    .timeline-event-description {
+      p { max-width: 48rem; }
+    }
+  }
+}

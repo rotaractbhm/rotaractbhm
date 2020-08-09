@@ -1,0 +1,154 @@
+/*
+==========================================================================================
+  Variables
+==========================================================================================
+*/
+
+:root {
+
+  /*
+  ========================================================================================
+    Grid
+  ========================================================================================
+  */
+
+  --grid-columns: 24;
+
+  /*
+  ========================================================================================
+    Spacing
+  ========================================================================================
+  */
+
+  --spacing: 0.8rem;
+
+  /*
+  ========================================================================================
+    Colors
+  ========================================================================================
+  */
+
+  --hue-base: 0;
+  --saturation-base: 0%;
+
+  --color-gray-0: hsl(var(--hue-base), var(--saturation-base), 100%);
+  --color-gray-1: hsl(var(--hue-base), var(--saturation-base), 87.5%);
+  --color-gray-2: hsl(var(--hue-base), var(--saturation-base), 75%);
+  --color-gray-3: hsl(var(--hue-base), var(--saturation-base), 62.5%);
+  --color-gray-4: hsl(var(--hue-base), var(--saturation-base), 50%);
+  --color-gray-5: hsl(var(--hue-base), var(--saturation-base), 37.5%);
+  --color-gray-6: hsl(var(--hue-base), var(--saturation-base), 25%);
+  --color-gray-7: hsl(var(--hue-base), var(--saturation-base), 12.5%);
+  --color-gray-8: hsl(var(--hue-base), var(--saturation-base), 0%);
+
+  --color-alpha-0: hsla(var(--hue-base), var(--saturation-base), 0%, 0%);
+  --color-alpha-1: hsla(var(--hue-base), var(--saturation-base), 0%, 12.5%);
+  --color-alpha-2: hsla(var(--hue-base), var(--saturation-base), 0%, 25%);
+  --color-alpha-3: hsla(var(--hue-base), var(--saturation-base), 0%, 37.5%);
+  --color-alpha-4: hsla(var(--hue-base), var(--saturation-base), 0%, 50%);
+  --color-alpha-5: hsla(var(--hue-base), var(--saturation-base), 0%, 62.5%);
+  --color-alpha-6: hsla(var(--hue-base), var(--saturation-base), 0%, 75%);
+  --color-alpha-7: hsla(var(--hue-base), var(--saturation-base), 0%, 87.5%);
+  --color-alpha-8: hsla(var(--hue-base), var(--saturation-base), 0%, 100%);
+
+  --color-rotary-blue: #17458f;
+  --color-rotary-gold: #f7a81b;
+  --color-rotary-azure: #0050a2;
+  --color-rotary-sky-blue: #019fcb;
+  --color-rotary-cranberry: #9b1238;
+  --color-rotary-turquoise: #018d8d;
+  --color-rotary-violet: #872175;
+  --color-rotary-orange: #ff7600;
+
+  --color-rotaract-red: #c5205a;
+  --color-rotaract-blue: #0e2e58;
+
+  --color-primary: var(--color-rotaract-red);
+  --color-base: var(--color-gray-6);
+  --color-heading: var(--color-rotaract-blue);
+  --color-link: var(--color-rotaract-red);
+  --color-background: var(--color-gray-0);
+
+  /*
+  ========================================================================================
+    Borders
+  ========================================================================================
+  */
+
+  --border-base: 0.1rem solid hsla(0, 0%, 0%, 12.5%);
+
+  --border-radius-base: calc(var(--spacing) * 0.4);
+
+  /*
+  ========================================================================================
+    Fonts
+  ========================================================================================
+  */
+
+  --font-family-base: "Source Sans Pro", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-family-heading: "Source Serif Pro", ui-serif, serif;
+
+  /* font sizes */
+  --font-size-xxxxl: 3.2rem;
+  --font-size-xxxl: 2.8rem;
+  --font-size-xxl: 2.4rem;
+  --font-size-xl: 2.0rem;
+  --font-size-large: 1.8rem;
+  --font-size-base: 1.6rem;
+  --font-size-small: 1.4rem;
+  --font-size-smaller: 1.2rem;
+
+  /* font weights */
+  --font-weight-light: 300;
+  --font-weight-book: 400;
+  --font-weight-bold: 600;
+
+  --font-weight-base: var(--font-weight-book);
+  --font-weight-heading: var(--font-weight-bold);
+
+  /*
+  ========================================================================================
+    Line Heights
+  ========================================================================================
+  */
+
+  --line-height-xxxxl: 4.0rem;
+  --line-height-xxxl: 3.6rem;
+  --line-height-xxl: 3.2rem;
+  --line-height-xl: 2.8rem;
+  --line-height-large: 2.4rem;
+  --line-height-base: 2.0rem;
+  --line-height-small: 2.0rem;
+  --line-height-smaller: 1.6rem;
+
+  /*
+  ========================================================================================
+    Letter Spacings
+  ========================================================================================
+  */
+
+  --letter-spacing-base: -0.018em;
+
+  /*
+  ========================================================================================
+    Animations
+  ========================================================================================
+  */
+
+  --animation-duration-base: 100ms;
+  --animation-timing-function-base: ease;
+
+  /*
+  ========================================================================================
+    Widths
+  ========================================================================================
+  */
+
+  --width-min: 36rem;
+  --width-max: 192rem;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {}
+}
