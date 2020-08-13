@@ -4,9 +4,18 @@
 ==========================================================================================
 */
 
+.buttons {
+  display: flex;
+  align-items: center;
+  column-gap: calc(var(--gap) * 2);
+}
+
 button,
 .button {
-  color: var(--color-link);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--colorLink);
   line-height: inherit;
   letter-spacing: inherit;
   white-space: nowrap;
@@ -14,41 +23,81 @@ button,
   cursor: pointer;
 
   &:disabled {
-    color: var(--color-gray-1);
+    color: var(--colorGray8);
     text-decoration: none;
     cursor: default;
   }
 
   &:not(:disabled) {
-    &:hover { color: var(--color-base); }
+    &:hover { color: var(--colorBase); }
   }
 
   &.button-base {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.8rem 1.6rem;
-    background-color: var(--color-primary);
-    border-radius: var(--border-radius-base);
-    font-size: var(--font-size-base);
+    padding: var(--gap) calc(var(--gap) * 2);
+    background-color: var(--colorLink);
+    border-radius: var(--borderRadiusRelative);
+    font-size: var(--fontSizeBase);
     font-weight: inherit;
-    color: var(--color-gray-0);
-    line-height: var(--line-height-base);
+    color: var(--colorGray0);
+    line-height: var(--lineHeightBase);
     text-decoration: none;
 
     &:disabled {
-      background-color: var(--color-gray-1);
-      color: var(--color-gray-2);
+      background-color: var(--colorGray4);
+      color: var(--colorGray8);
     }
 
     &:not(:disabled) {
-      &:hover { color: var(--color-gray-0); }
+      &:hover {
+        background-color: var(--colorRotarySkyBlue);
+        color: var(--colorGray0);
+      }
     }
   }
 
-  &.button-large { font-size: var(--font-size-large); }
+  &.button-small {
+    font-size: var(--fontSizeSmall);
+    line-height: var(--lineHeightSmall);
+  }
+
+  &.button-smaller {
+    font-size: var(--fontSizeSmaller);
+    line-height: var(--lineHeightSmaller);
+  }
 
   &.button-wide { width: 100%; }
+
+  &.button-rotary-azure {
+    background-color: var(--colorRotaryAzure);
+
+    &:not(:disabled) {
+      &:hover { background-color: var(--colorRotaryOrange); }
+    }
+  }
+
+  &.button-gray {
+    background-color: var(--colorGray2);
+    color: var(--colorBase);
+
+    &:not(:disabled) {
+      &:hover {
+        background-color: var(--colorGray3);
+        color: var(--colorBase);
+      }
+    }
+  }
+
+  &.button-transparent {
+    background-color: transparent;
+    color: var(--colorBase);
+
+    &:not(:disabled) {
+      &:hover {
+        background-color: transparent;
+        color: var(--colorRotaractRed);
+      }
+    }
+  }
 }
 
 button {

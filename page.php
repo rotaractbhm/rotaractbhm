@@ -1,10 +1,14 @@
 <?php get_header(); ?>
-<main class="main" role="main">
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-  <article class="page">
-    <h1 class="heading"><?php the_title(); ?></h1>
-    <p><?php the_content(); ?></p>
-  </article>
+  <section class="section">
+    <div class="section-mask">
+      <div class="section-container">
+        <header class="section-layout">
+          <h1 class="heading text-xxxxxl"><?php the_title(); ?></h1>
+          <div class="content"><?php the_content(); ?></div>
+        </header>
+      </div>
+    </div>
+  </section>
   <?php endwhile; endif; ?>
-</main>
 <?php get_footer(); ?>

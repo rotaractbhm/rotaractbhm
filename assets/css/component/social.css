@@ -1,10 +1,20 @@
+/*
+==========================================================================================
+  Social
+==========================================================================================
+*/
+
 .social {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  column-gap: calc(var(--gap) * 2);
+  list-style: none;
 
   .channel {
-    a { color: var(--color-gray-4); }
-
-    &:not(:last-child) { margin-right: 0.5em; }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorGray8);
+    line-height: 1;
   }
 }

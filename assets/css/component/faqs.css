@@ -6,8 +6,8 @@
 
     .question {
       padding: 1.8rem 0;
-      font-family: var(--font-family-heading);
-      font-size: var(--font-size-xxl);
+      font-family: var(--fontFamilyHeading);
+      font-size: var(--fontSizeH4);
       font-weight: 700;
       color: var(--c-heading);
       line-height: var(--f-h6-lh);
@@ -16,7 +16,7 @@
 
     .answer {
       padding-bottom: 1.8rem;
-      font-size: var(--font-size-xl);
+      font-size: var(--fontSizeH5);
       line-height: var(--f-larger-lh);
       max-width: 90rem;
     }

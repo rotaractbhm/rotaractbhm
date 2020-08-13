@@ -1,12 +1,6 @@
 .label {
-  padding: 0.3rem 0.9rem;
-  background-color: var(--color-gray-6);
-  border-radius: 3px;
-  box-shadow: inset 0 0 0 1px var(--border-color);
-  font-size: var(--font-size-smaller);
-  font-weight: 600;
-  color: var(--color-gray-0);
-  line-height: var(--f-smaller-lh);
+  background-color: var(--colorGray8);
+  color: var(--colorGray0);
   letter-spacing: 0;
   text-transform: uppercase;
   white-space: nowrap;

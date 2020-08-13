@@ -1,18 +1,10 @@
 .breadcrumbs {
-  display: inline-flex;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 5vw 5vw calc(1.25vw + 1.8rem);
-
   .breadcrumb {
     white-space: nowrap;
 
     &:not(:last-child) {
       &::after {
         content: "/";
-        padding: 0 0.9rem;
-        font-weight: 700;
-        color: var(--color-gray-2);
       }
     }
   }

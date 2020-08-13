@@ -16,8 +16,8 @@
     .director-social {
       display: none;
       margin-top: 0.3rem;
-      font-size: var(--font-size-large);
-      min-height: var(--font-size-large);
+      font-size: var(--fontSizeLarge);
+      min-height: var(--fontSizeLarge);
     }
   }
 }

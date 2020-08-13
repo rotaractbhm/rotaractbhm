@@ -7,8 +7,11 @@
 const path = require("path");
 const { merge } = require("webpack-merge");
 const common = require("./webpack.common.js");
-const MiniCssExtract = require("mini-css-extract-plugin");
-const TerserWebpack = require("terser-webpack-plugin");
+
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const TerserWebpackPlugin = require("terser-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 /*
 ==========================================================================================
@@ -18,19 +21,27 @@ const TerserWebpack = require("terser-webpack-plugin");
 
 module.exports = merge(common, {
   mode: "production",
-  devtool: "source-map",
   output: {
     filename: "[name].js",
-    path: path.resolve(__dirname)
+    path: path.resolve(__dirname, "../")
   },
   optimization: {
     minimizer: [
-      new TerserWebpack()
+      new TerserWebpackPlugin({}),
+      new OptimizeCSSAssetsPlugin({})
     ]
   },
   plugins: [
-    new MiniCssExtract({
-      filename: "style.css"
+    new MiniCssExtractPlugin({
+      filename: "style.css",
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: "./static/",
+          to: "../"
+        }
+      ]
     })
   ]
 });

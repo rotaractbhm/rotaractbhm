@@ -7,21 +7,19 @@
 html, body { min-height: 100vh; }
 
 html {
-  background: var(--color-background);
+  background: var(--colorBackground);
   font-size: 10px;
 }
 
 body {
-  margin: 0 auto;
-  background-color: var(--color-background);
-  border-top: calc(var(--spacing) / 2) solid var(--color-rotaract-red);
-  font-family: var(--font-family-base);
-  font-size: var(--font-size-base);
+  background-color: var(--colorBackground);
+  border-top: calc(var(--gap) / 2) solid var(--colorRotaractRed);
+  font-family: var(--fontFamilyBase);
+  font-size: var(--fontSizeBase);
   font-weight: var(--font-weight-base);
-  color: var(--color-base);
-  line-height: var(--line-height-base);
-  letter-spacing: var(--letter-spacing-base);
+  color: var(--colorBase);
+  line-height: var(--lineHeightBase);
+  letter-spacing: var(--letterSpacingBase);
   position: relative;
-  min-width: var(--width-min);
-  max-width: var(--width-max);
+  min-width: var(--layoutMinWidth);
 }

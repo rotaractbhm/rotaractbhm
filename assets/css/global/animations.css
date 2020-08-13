@@ -10,8 +10,8 @@
   will-change: transform;
   transform: scale(1), translate(0, 0);
   transition-property: transform;
-  transition-duration: var(--animation-duration-base);
-  transition-timing-function: var(--animation-timing-function-base);
-  animation-duration: var(--animation-duration-base);
-  animation-timing-function: var(--animation-timing-function-base);
+  transition-duration: var(--animationDurationBase);
+  transition-timing-function: var(--animationTimingBase);
+  animation-duration: var(--animationDurationBase);
+  animation-timing-function: var(--animationTimingBase);
 }

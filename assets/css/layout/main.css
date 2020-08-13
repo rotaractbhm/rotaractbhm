@@ -6,6 +6,99 @@
 
 .main {
   position: relative;
+}
 
-  .section {}
+.section {
+  display: grid;
+  grid-template-columns: var(--gridColumnsBase);
+  background-color: var(--colorBackground);
+  position: relative;
+
+  &.angle-top,
+  &.angle-bottom {
+    &::before,
+    &::after {
+      background-color: inherit;
+      transform: skewY(var(--angleBase));
+      transform-origin: 0 0;
+      position: absolute;
+      height: var(--angleHeight);
+      left: 0;
+      right: 0;
+    }
+  }
+
+  &.angle-top {
+    margin-top: var(--angleOffset);
+    min-height: var(--angleHeight);
+
+    &::before {
+      content: "";
+      transform-origin: var(--angleTransformOrigin);
+      top: calc(var(--angleHeight) * -1);
+    }
+
+    .section-container { padding-top: calc(var(--gap) * 8); }
+  }
+
+  &.angle-bottom {
+    margin-bottom: var(--angleOffset);
+    min-height: var(--angleHeight);
+
+    &::after {
+      content: "";
+      bottom: calc(var(--angleHeight) * -1);
+    }
+
+    .section-container { padding-bottom: calc(var(--gap) * 4); }
+  }
+
+  &.theme-rotaract-red,
+  &.theme-rotaract-blue,
+  &.theme-rotary-blue,
+  &.theme-rotary-gold,
+  &.theme-rotary-azure,
+  &.theme-rotary-sky-blue,
+  &.theme-rotary-cranberry,
+  &.theme-rotary-turquoise,
+  &.theme-rotary-violet,
+  &.theme-rotary-orange {
+    color: var(--colorGray0);
+
+    .heading, a { color: var(--colorGray0); }
+  }
+
+  &.theme-rotaract-red { background-color: var(--colorRotaractRed); }
+
+  &.theme-rotaract-blue { background-color: var(--colorRotaractBlue); }
+
+  &.theme-rotary-blue { background-color: var(--colorRotaryBlue); }
+
+  &.theme-rotary-gold { background-color: var(--colorRotaryGold); }
+
+  &.theme-rotary-azure { background-color: var(--colorRotaryAzure); }
+
+  &.theme-rotary-sky-blue { background-color: var(--colorRotarySkyBlue); }
+
+  &.theme-rotary-cranberry { background-color: var(--colorRotaryCranberry); }
+
+  &.theme-rotary-turquoise { background-color: var(--colorRotaryTurquoise); }
+
+  &.theme-rotary-violet { background-color: var(--colorRotaryViolet); }
+
+  &.theme-rotary-orange { background-color: var(--colorRotaryOrange); }
+
+  &.theme-gray {
+    background-color: var(--colorGray1);
+    color: var(--colorGray8);
+
+    .heading, a { color: var(--colorGray8); }
+  }
+
+  .section-container {
+    grid-column: 3 / -3;
+    padding: calc(var(--gap) * 12) 0;
+    position: relative;
+    z-index: 1;
+  }
 }
